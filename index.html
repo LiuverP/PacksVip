@@ -84,11 +84,10 @@
       filter: blur(10px);
       cursor: pointer;
       transition: filter 0.3s ease;
-      pointer-events: none;
+      pointer-events: auto; /* Aquí está la corrección */
     }
     .spoiler-img.spoiler-unblurred {
       filter: none !important;
-      pointer-events: auto;
     }
     #joinBtn {
       display: none;
@@ -257,4 +256,5 @@
 </script>
 
 </body>
-</html>
+  </html>
+  
